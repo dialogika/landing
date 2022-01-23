@@ -19,13 +19,11 @@ $(document).on('click','.send_contact', function(){
 
      /* Call Input Form */
     var input_name2     = $("#names").val(),
-        input_work2     = $("#works").val(),
         input_message2  = $("#message").val();
 
     /* Final Whatsapp URL */
     var blanter_whatsapp = walink + '?phone=' + phone + '&text=' + walink2 + '%0A%0A' +
-        '*Nama Lengkap* : ' + input_name2 + '%0A' +
-        '*Perkerjaan*   : ' + input_work2 + '%0A' +
+        '*Name*         : ' + input_name2 + '%0A' +
         '*Isi Message*  : ' + input_message2 + '%0A';
 
     /* Whatsapp Window Open */

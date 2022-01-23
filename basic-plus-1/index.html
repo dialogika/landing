@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Cara Berbicara Tanpa Persiapan | Kelas Public Speaking Dialogika</title>
-  <meta content="KOPAS TRIK BICARA TANPA PERSIAPAN TANPA HARUS TRIAL AND ERROR " name="description">
+  <meta content="Bebaskan potensi Anda dari belenggu kesulitan didalam Public Speaking" name="description">
   <meta content="Public Speaking" name="keywords">
 
   <!-- Favicons -->
@@ -17,14 +17,14 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -42,7 +42,6 @@
           data:$("#myForm").serializeArray(),
           success: function(){
             alert("Admin akan langsung menghubungi Anda :)")
-            // $('#sucessModal').modal('show');
           },
           error: function(){
             alert("There was an error :(")
@@ -142,8 +141,6 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h3><strong>Success!</strong> eBook Akan Segera Dikirim Sambil Menunggu Baca COPAS trik dibawah ini...</h3>
-          <!-- <span class="badge rounded-pill bg-sukses"><strong>Success!</strong> eBook Akan Segera Dikirim Sambil Menunggu Baca Ini...</span> -->
           <h1>COPAS LANGSUNG: TRIK BICARA TANPA PERSIAPAN TANPA HARUS TRIAL AND ERROR</h1>
           <p>Hidup Itu MEMANG Keras! Namun Kami Menciptakan PLATFORM Menyenangkan dan Mudah Untuk Anda Menggapai Mimpi. Kita Mulai dari Merubah Mindset Cara Bicara Anda dan Public Speaking.</p>
           <p class=""><strong>~ About Us ~</strong></p>
@@ -684,26 +681,25 @@
         <form action="javascript:void" method="post" id="myForm" role="form" class="php-email-form needs-validation" onsubmit="SubForm()">
           <div class="row">
             <div class="col-md-4 form-group">
-              <input type="text" name="Name" pattern="[a-zA-Z\s]{3,100}" id="names" class="form-control" placeholder="Nama Lengkap" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="Name" pattern="[a-zA-Z\s]{3,100}" id="names" class="form-control" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="Work" id="works" placeholder="Perkerjaan" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="Whatsapp" id="phone" pattern="[0-9]{10,15}" placeholder="Nomor Whatsapp" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="tel" class="form-control" name="Whatsapp" id="phone" pattern="[0-9]{10,15}" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
           </div>
 
           <div class="form-group mt-3">
-            <textarea class="form-control" name="Reason" id="message" rows="5" placeholder="Kesulitan Yang Dialami Dipublic Speaking"></textarea>
+            <textarea class="form-control" name="Reason" id="message" rows="5" placeholder="Message"></textarea>
             <div class="validate"></div>
           </div>
             
-          <input type="text" class="form-control d-none" name="Channel" value="From eBook" readonly>
-          <input type="text" class="form-control d-none" name="Funnel" value="Phase 1" readonly>
+          <input type="text" class="form-control d-none" name="Funnel" value="From eBook" readonly>
           <select name="Timestamp" class="form-select d-none">
             <option id="timestamp"></option>
           </select>
@@ -806,6 +802,7 @@
     </div>
   </footer><!-- End Footer -->
 
+  <!-- ======= Modal ======= -->
   <div class="modal fade" id="successModal">
     <div class="modal-dialog modal-dialog-centered position-absolute top-50 start-50 translate-middle" style="width: 18rem;">
       <div class="modal-content">
