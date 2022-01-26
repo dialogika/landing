@@ -1934,8 +1934,24 @@ section {
 /*--------------------------------------------------------------
 # Inner Page
 --------------------------------------------------------------*/
-.inner-page mark {
+.inner-page mark.blue {
   background-color: #f1f7fd;
+}
+
+.inner-page mark.green {
+  background-color: #edfbf0;
+}
+
+.inner-page mark.red {
+  background-color: #F8E6E7;
+}
+
+.inner-page mark.yellow {
+  background-color: #FFECB7;
+}
+
+.inner-page mark.orange {
+  background-color: #FFDAB9;
 }
 
 .inner-page p.blogs {
@@ -1947,3 +1963,43 @@ section {
   font-weight: 700;
 }
 
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/horo-bg.jpg") center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+.cta p {
+  color: #fff;
+}
+.cta .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #F9C72E;
+  color: #F9C72E;
+}
+.cta .cta-btn:hover {
+  background: #0F61A8;
+  border: 2px solid #0F61A8;
+  color: #fff;
+}
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
