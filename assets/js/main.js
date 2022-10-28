@@ -427,6 +427,9 @@
   countDownDate();
   setInterval(countDownDate, 1000);
 
-  
+  /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
 
 })()
